@@ -1,2 +1,2 @@
 # Fibonacci-Recursion
-A little Java exmple of recursion on Fibonacci's numeber
+A little Java example of recursion on Fibonacci's numeber.
