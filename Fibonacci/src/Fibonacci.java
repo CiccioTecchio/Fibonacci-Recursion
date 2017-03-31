@@ -3,7 +3,7 @@ public class Fibonacci{
 	private int n;
 	private int [] num;
 
-	public Fibonacci(int n) throws NegativeArraySizeException{
+	public Fibonacci(int n) {
 		this.n=n;
 		this.num = new int[3] ;
 		this.num[0]=1;
