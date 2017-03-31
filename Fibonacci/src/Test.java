@@ -8,10 +8,12 @@ public class Test{
 		System.out.println("Witch Fibonacci's number do you want calcolate: ");
 		int n;
 		n=in.nextInt();
-		
-		Fibonacci fib=new Fibonacci(n);
-		System.out.println("Fibonacci's("+n+")= "+fib.calcolate(n));
-		
+		if(n<0){
+			System.out.println("Insert a positive number");
+		}else{
+			Fibonacci fib=new Fibonacci(n);
+			System.out.println("Fibonacci's("+n+")= "+fib.calcolate(n));
+		}
 
 	}
 }
